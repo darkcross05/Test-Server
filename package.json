@@ -1,0 +1,32 @@
+{
+  "name": "mocha",
+  "version": "1.0.0",
+  "description": "prueba servicio externo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkcross05/Test-Server.git"
+  },
+  "keywords": [
+    "mocha",
+    "server"
+  ],
+  "author": "Juan Pablo Mariaca S.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darkcross05/Test-Server/issues"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "chai": "^4.1.2",
+    "express": "^4.15.4",
+    "mocha": "^3.5.3",
+    "request": "^2.82.0",
+    "co": "^4.6.0",
+    "node-fetch": "^1.7.3"
+  },
+  "homepage": "https://github.com/darkcross05/Test-Server#readme"
+}
